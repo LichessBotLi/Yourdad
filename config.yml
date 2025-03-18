@@ -156,7 +156,7 @@ challenge:                         # Incoming challenges.
     #- unlimited
   modes:                           # Game modes to accept.
     - casual                       # Unrated games.
-   #- rated                        # Rated games - must comment if the engine doesn't try to win.
+    - rated                        # Rated games - must comment if the engine doesn't try to win.
   block_list:                      # List of users from which the challenges are always declined.
     #- YoBot_v2
     #- TheMatrix2025
@@ -198,8 +198,8 @@ matchmaking:
     - 600
     - 1800
   challenge_increment:             # Increment in seconds of the challenge (to be chosen at random).
+    - 0
     - 1
-    - 2
     - 3
 #  challenge_days:                 # Days for correspondence challenge (to be chosen at random).
 #    - 1
